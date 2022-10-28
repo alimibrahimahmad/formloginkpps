@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrasi Peserta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+
+      a {
+        text-decoration-color: antiquewhite;
+      }
+    </style>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">REGISTRASI KOPDARGAB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registrasi">Registrasi Peserta</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- slide -->
+    <div id="carouselExampleDark" class="carousel slide mt-2 pt-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="spanduk kopdargab 4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="spanduk kopdargab 4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="spanduk kopdargab 4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- slide akhir -->
+
+    <!-- form isi -->
+    <section id="registrasi">
+      <div class="container col-7 mb-5 mt-3">
+        <div class="row">
+          <div class="col text-center mb-3 mt-2">
+            <h2>Registrasi Peserta</h2>
+          </div>
+        </div>
+        <form action="#">
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">nama</label>
+            <div class="col">
+              <input type="text" class="form-control" id="inputnama" placeholder="tulis nama t nah" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">No telepon</label>
+            <div class="col">
+              <input type="text" class="form-control" id="inputnama" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputregional" class="col-sm-2 col-form-label">Regional</label>
+            <div class="col">
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Sulawesi Selatan</option>
+                <option>Sulawesi barat</option>
+                <option>Sulawesi tenggara</option>
+                <option>Sulawesi tengah</option>
+              </select>
+            </div>
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Chapter</label>
+            <div class="col">
+              <select id="inputState" class="form-select">
+                <option selected>Chapter...</option>
+                <option>Bulukumba</option>
+                <option>Makassar</option>
+                <option>Gorontalo</option>
+                <option>Pare - Pare</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Alamat</label>
+            <div class="col">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Jangan Alamat Palsu</label>
+              </div>
+            </div>
+          </div>
+          <fieldset class="row mb-3">
+            <div class="col-form-label col-sm-2 pt-0">size baju</div>
+            <div class="col-sm-10 d-flex justify-content-between">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
+                <label class="form-check-label" for="gridRadios1"> M </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                <label class="form-check-label" for="gridRadios2"> L </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                <label class="form-check-label" for="gridRadios2"> XL </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                <label class="form-check-label" for="gridRadios2"> XXL </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                <label class="form-check-label" for="gridRadios2"> XXXL </label>
+              </div>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+    </section>
+    <!-- form isi -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-center p-1 text-white sticky-bottom"><p>created with love alim</p></footer>
+    <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
