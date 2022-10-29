@@ -1,0 +1,22 @@
+.alert {
+  margin-top: 10px;
+}
+
+.container {
+  width: 80%;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 50%;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 20px;
+  }
+}
