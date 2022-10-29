@@ -1,13 +1,13 @@
-.alert {
-  margin-top: 10px;
-}
-
 .container {
   width: 80%;
 }
 
 .btn {
   width: 100%;
+}
+
+.alert {
+  margin-top: 20px;
   text-align: center;
 }
 
